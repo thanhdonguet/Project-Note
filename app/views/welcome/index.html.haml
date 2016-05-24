@@ -1,0 +1,31 @@
+#banner
+	.banner_content
+		%h1 Bloody Note
+		%p Notebook online của bạn. Lưu giữ ý tưởng của bạn. Lưu giữ suy nghĩ của bạn. Cả những kế hoạch của bạn
+		%button= link_to "Sign Up", new_user_registration_path
+#testimonial
+	.wrapper
+		%p.quote "The greatest notebook for you."
+		%p.name - Team - HellBoys
+#callouts
+	.callout_inner
+		.wrapper
+			.callout
+				%h2 My Note
+				%p Nơi mà một kẻ đãng trí như bạn cần đến để ghi chú.
+
+			.callout
+				%h2 Your Note
+				%p Nơi bạn có thể nói xấu người bạn ghét, nói tốt người bạn thường và coi thường kẻ bạn khinh bỉ, thoải mái.
+
+			.callout
+				%h2 Our Note
+				%p Nơi mà bạn có thể xả Stress sau những giờ học lãng nhách trên giảng đường.
+#bottom_cta
+	.wrapper
+		%h2 điên cuồng? mệt mỏi? phấn khích ?
+		%p Tôi muốn bạn hãy đến với Bloody Note
+		%button= link_to "Click ngay vào đây!!!", new_user_registration_path
+
+%footer
+	%p &copy; Team HellBoys
